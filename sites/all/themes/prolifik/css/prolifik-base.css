@@ -1,0 +1,231 @@
+/* @override 
+	http://athensroofing.loc/sites/all/themes/prolifik/css/prolifik-base.css?m7oo9t
+	http://athensroofing.loc/sites/all/themes/prolifik/css/prolifik-base.css?m8e6jn
+*/
+
+/* This file will hold the main styles for your website. */
+body {
+background: #3f4f31; /* Old browsers */
+background: -moz-linear-gradient(top,  #3f4f31 0%, #729062 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f4f31), color-stop(100%,#729062)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #3f4f31 0%,#729062 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #3f4f31 0%,#729062 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #3f4f31 0%,#729062 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #3f4f31 0%,#729062 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4f31', endColorstr='#729062',GradientType=0 );
+}
+
+div.text {
+	color: #c6dab4;
+	padding: 4px;
+}
+
+/* Links */
+a, a:link {
+  text-decoration: underline;
+}
+a, a:link, a:visited, a:active {
+  	color: #216532;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Headers */
+body > #page h1, body > #page h2, body > #page h3,
+body > #page h4, body > #page h5, body > #page h6 {
+  border-color: #D4D4D4;
+  color: #005406;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1em;
+}
+
+body > #page h1#page-title, #node-page-38 div.field-item h2 {
+  color: #005406;
+	border-bottom: thin solid #005406;
+	padding-bottom: 5px;
+}
+
+#block-block-5 div.block-title h2.block-title div.text {
+	color: #005406;
+	text-align: left;
+	border-bottom: thin solid #005406;
+}
+
+/* Admin Menu */
+#admin-menu {
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -khtml-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* Drupal */
+#messages .messages {
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Page */
+#page {
+  position: relative;
+}
+
+/* Blocks */
+.block .content {
+  color: #626262;
+}
+.block .content li {
+  margin-left: 2em;
+}
+.block .content .item-list li {
+  margin: 0;
+}
+
+
+
+/* Sidebar */
+#region-sidebar-first div.block-title,
+#region-sidebar-second div.block-title {
+	background-color: #528656;
+}
+
+div.block-title {
+		color: #c6dab4;
+}
+
+#region-sidebar-first .block:first-child div.block-title {
+  margin-top: 0;
+	color: #c6dab4;
+}
+
+.boxes-box-controls ul {
+  margin: 0;
+}
+
+/* Content */
+
+ul.tabs {
+  *padding-top: 1px;
+}
+
+div.image-left a img, div.left img {
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+
+img.left {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#block-block-2 div.content div div {
+	color: white;
+}
+
+div.signature {
+	color: #003303;
+	font: 3em 'Great Vibes', cursive;
+	margin-top: 30px;
+}
+
+img.sidebar {
+	width: 100%;
+}
+
+div.plea {
+	line-height: 1em;
+	color: #005406;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+div.quality {
+	font-size: 1.5em;
+}
+
+div.byline {
+	font-weight: bold;
+	font-style: italic;
+	display: none;
+}
+
+#block-system-main div.view-link div.view-content h3 {
+	border-bottom: thin solid #005406;
+	font-weight: bold;
+}
+#node-page-38 div.field-item h3 {
+	color: #c6dab4;
+	font-weight: bold;
+	background-color: #528656;
+	padding: 5px;
+}
+
+/* @group Services Block */
+
+#block-views-services-block-1 {
+	background-color: white;
+}
+
+#block-views-services-block-1 div.content {
+		padding: 10px;
+}
+
+#block-views-services-block-1 li.views-row div.views-field-title a {
+	color: #005406;
+}
+
+
+
+/* @end */
+
+/* @group Quicktabs */
+
+#quicktabs-_none_ div.item-list ul.quicktabs-tabs.quicktabs-style-nostyle li.active {
+	font-weight: bold;
+}
+
+#quicktabs-_none_ div.item-list ul.quicktabs-tabs.quicktabs-style-nostyle li {
+	  background: rgb(242,237,237); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIzMiUiIHN0b3AtY29sb3I9IiNmMmVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiNkM2NmZDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(242,237,237,1) 32%, rgba(211,207,208,1) 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(32%,rgba(242,237,237,1)), color-stop(99%,rgba(211,207,208,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(242,237,237,1) 32%,rgba(211,207,208,1) 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(242,237,237,1) 32%,rgba(211,207,208,1) 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(242,237,237,1) 32%,rgba(211,207,208,1) 99%); /* IE10+ */
+background: linear-gradient(top,  rgba(242,237,237,1) 32%,rgba(211,207,208,1) 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2eded', endColorstr='#d3cfd0',GradientType=0 );
+
+}
+
+
+ul.quicktabs-tabs li {
+  display: inline;
+  background: none;
+  list-style-type: none;
+  padding: 1%;
+  white-space: nowrap;
+	border-top: thin solid #CACCCB;
+	border-right: thin solid #CACCCB;
+}
+
+ul.quicktabs-tabs li a {
+	color: #253690;
+}
+
+
+/* @end */
+
+
