@@ -1,5 +1,5 @@
 ===============================
-AlchemyAPI PHP SDK: version 0.5
+AlchemyAPI PHP SDK: version 0.8
 ===============================
 
 This is a PHP-5 implementation of the AlchemyAPI SDK.
@@ -47,7 +47,13 @@ Code Samples:
 
   10. JSON output mode examples: php json_example.php
 
-  11. API parameters object example: php entity_param_example.php
+  11. Sentiment Analysis: php sentiment.php
+  
+  12. Relations Extraction: php relations.php
+
+  12. API parameters object example: php entity_param_example.php
+
+  13. Author Extraction: php authors.php
 
 
 DEPENDENCIES
@@ -61,7 +67,7 @@ This module requires these other modules and libraries:
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2009-2010 Orchestr8, LLC.
+Copyright (C) 2009-2012 Orchestr8, LLC.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as PHP itself, either PHP version 5 or,

@@ -1,9 +1,59 @@
-/* @override 
-	http://athensroofing.loc/sites/all/themes/prolifik/css/prolifik-base.css?m7oo9t
-	http://athensroofing.loc/sites/all/themes/prolifik/css/prolifik-base.css?m8e6jn
-*/
-
+#node-article-55 .field-name-field-image {display: none;}
+.node-article .field-name-field-image {text-align: center;}
+	
 /* This file will hold the main styles for your website. */
+
+/* @group Authorship Block */
+#block-views-author-block div.block-title h2.block-title div.text {
+	color: rgba(0, 83, 6, 0.74);
+	font-size: medium;
+	border-bottom: 1px solid rgba(0, 83, 6, 0.74);
+}
+
+#block-views-author-block div.author img {float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#block-views-author-block div.view-content {
+	background-color: rgba(77, 99, 63, 0.64);
+	padding: 10px; border-radius: 10px; min-height: 100px;
+	-moz-box-shadow: inset 1px 1px 3px #e6e4ce;
+	-webkit-box-shadow: inset 1px 1px 3px #e6e4ce;
+	box-shadow: inset 1px 1px 3px #e6e4ce;
+}
+
+#block-views-author-block .views-field-name {
+	color: #c0db66;
+	font-size: medium;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* @end */
+
+#block-views-services-block-2 table {
+	border: none;
+}
+
+#block-views-services-block-2 .views-field-title {
+	text-align: center;background-color: #005406; border-radius:10px; padding: 7px;   margin: 7px; width: 100%;
+}
+
+#block-views-services-block-2 .views-row-odd {
+}
+#block-views-services-block-2 .views-row-even {
+	
+}
+
+#block-views-services-block-2 .views-field-title a {
+	color: white;text-decoration: none;
+	font-size: 1.25em;
+}
+
+#node-page-2 img.right {
+	max-width: 350px; height: auto; float: right;
+}
 body {
 background: #3f4f31; /* Old browsers */
 background: -moz-linear-gradient(top,  #3f4f31 0%, #729062 100%); /* FF3.6+ */
@@ -39,6 +89,17 @@ body > #page h4, body > #page h5, body > #page h6 {
   font-weight: normal;
   letter-spacing: 0;
   line-height: 1em;
+	font-family: "Josefin Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+#block-webform-client-block-21 div.block-title h2.block-title {
+	
+}
+
+#block-block-12 div.content p a img {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 body > #page h1#page-title, #node-page-38 div.field-item h2 {
@@ -94,18 +155,14 @@ body > #page h1#page-title, #node-page-38 div.field-item h2 {
 
 /* Sidebar */
 #region-sidebar-first div.block-title,
-#region-sidebar-second div.block-title {
-	background-color: #528656;
+#region-sidebar-second div.block-title {background-color: #005406;}
+
+#block-media-gallery-41 div.block-title h2.block-title div.text {
+	background-color: #005406;
+	color: white;
 }
 
-div.block-title {
-		color: #c6dab4;
-}
 
-#region-sidebar-first .block:first-child div.block-title {
-  margin-top: 0;
-	color: #c6dab4;
-}
 
 .boxes-box-controls ul {
   margin: 0;
@@ -172,6 +229,71 @@ div.byline {
 	padding: 5px;
 }
 
+div.centered {
+	text-align: center;
+}
+
+div.view-frontpage div.centered h2 {
+	text-align: center;
+}
+
+#region-header-first {
+	margin: 0;
+	width: 100%;
+}
+
+#block-webform-client-block-21 {
+	border: thin solid silver;
+}
+
+
+#block-webform-client-block-21 div.block-title h2.block-title {
+	margin-top: 0;
+	color: white;
+}
+
+div.warranty div.block-warranty {
+	font-weight: bold;
+}
+div.warranty p {
+	margin-bottom: 2px;
+}
+div.warranty div.simple {
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#block-webform-client-block-21 div.block-title h2.block-title div.text {
+	color: white;
+}
+
+#webform-client-form-21 {
+	padding: 5px;
+}
+
+div.ten-year-highlight {
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+	padding: 9px;
+	background-color: #005406;
+	color: white;
+	font-weight: bold;
+}
+
+span.qtip-link {
+	color: green;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.qtip-additional-element {
+	display: none;
+}
+
+
 /* @group Services Block */
 
 #block-views-services-block-1 {
@@ -228,4 +350,21 @@ ul.quicktabs-tabs li a {
 
 /* @end */
 
+img.right_border {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: medium solid white;
+	max-width: 300px;
+	height: auto;
+}
+
+.widgets-style-horizontal {
+	margin-right: 7px;
+}
+
+#block-views-author-block .views-field-field-bio {
+	color: white;
+	line-height: 1.3em;
+}
 

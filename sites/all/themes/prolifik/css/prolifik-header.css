@@ -1,4 +1,7 @@
-/* @override http://athensroofing.loc/sites/all/themes/prolifik/css/prolifik-header.css?m70hqt */
+/* @override 
+	http://athensroofing.loc/sites/all/themes/prolifik/css/prolifik-header.css?m70hqt
+	http://ath.georgiacommercialroofing.com/sites/all/themes/prolifik/css/prolifik-header.css?m8g20y
+*/
 
 #section-header {
   overflow: hidden;
@@ -6,7 +9,11 @@
 
 }
 
-#zone-header {background-color: white;}
+#zone-header {background-color: white;
+  -webkit-box-shadow: #e7e7e7 0px 0px 10px;
+  -moz-box-shadow: #e7e7e7 0px 0px 10px;
+  box-shadow: #e7e7e7 0px 0px 10px;   
+}
 
 #zone-header-wrapper {
   overflow: hidden;

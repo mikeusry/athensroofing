@@ -1,3 +1,5 @@
+/* @override http://ath.georgiacommercialroofing.com/sites/all/themes/prolifik/css/prolifik-form.css?m8g20y */
+
 /* Navin: Form */
 textarea, select, input[type="date"], input[type="datetime"],
 input[type="datetime-local"], input[type="email"], input[type="month"],
@@ -21,6 +23,7 @@ input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
   border-radius: 5px;
   color: #626262;
   z-index: 1;
+  width: 100%;
 }
 button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
   -moz-box-shadow: none;
@@ -30,6 +33,10 @@ button:focus, button:active, input:focus, input:active, select:focus, select:act
   -webkit-box-shadow: none;
   box-shadow: none;
   border: 1px solid #489ec8;
+}
+
+#edit-submit {
+	width: 100%;
 }
 .node-links ul li a, .comment-links ul li a,
 button, input[type="reset"], input[type="submit"], input[type="button"] {
